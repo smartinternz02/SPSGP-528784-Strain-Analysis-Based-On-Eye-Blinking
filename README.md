@@ -16,6 +16,10 @@ the number of times a person blinks. If blink count deviates from the average va
 message is displayed on the screen appropriately.
 
 
+import threading,time,cv2,dlib,argparse,scipy,gtts,playsound,tkinter  to run the code.
+
+
+
 
        Note : 
 
@@ -24,4 +28,6 @@ message is displayed on the screen appropriately.
        2) Run the file in the anaconda prompt by passing face land marks file as argument as below:
          "python eye_strain_analyzer.py --shape-predictor shape_predictor_68_face_landmarks.dat".
        
-       3) We taken an average eye blinks per minute as 20.Based on which the Strain is analyzed.
+       3)Download suitable "dlib" library version which is suitable for your system python version.
+       
+       4) We taken an average eye blinks per minute as 20.Based on which the Strain is analyzed.
