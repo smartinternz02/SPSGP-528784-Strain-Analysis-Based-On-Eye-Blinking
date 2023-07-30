@@ -15,11 +15,13 @@ A neural network model is built which alerts the user if eyes are getting strain
 the number of times a person blinks. If blink count deviates from the average value (if the number of blinks is less or more), then an alert is initiated by playing an audio message along with a  popup 
 message is displayed on the screen appropriately.
 
-Note : 1)While Running the project place "shape_predictor_68_face_landmarks.dat" file in the same directory where the python file is placed.
-       
+
+
+       Note : 
+
+       1)While Running the project place "shape_predictor_68_face_landmarks.dat" file in the same directory where the python file is placed.
        
        2) Run the file in the anaconda prompt by passing face land marks file as argument as below:
          "python eye_strain_analyzer.py --shape-predictor shape_predictor_68_face_landmarks.dat".
-       
        
        3) We taken an average eye blinks per minute as 20.Based on which the Strain is analyzed.
