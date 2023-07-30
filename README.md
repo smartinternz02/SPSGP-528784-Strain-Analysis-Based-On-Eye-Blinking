@@ -1,7 +1,7 @@
 # SPSGP-528784-Strain-Analysis-Based-On-Eye-Blinking
 Strain Analysis Based On Eye Blinking
 
-Skills Required:Python,Open CV
+Skills Required: Python, Open CV
 
 
 Project Description:
@@ -16,9 +16,9 @@ the number of times a person blinks. If blink count deviates from the average va
 message is displayed on the screen appropriately.
 
 
-import threading,time,cv2,dlib,argparse,scipy,gtts,playsound,tkinter  to run the code.
+import threading, time, cv2, dlib, argparse, scipy, gtts, playsound, tkinter  to run the code.
 
-
+Demo Link : https://drive.google.com/file/d/17xOqZOREnUAwNoDtCLvcIJNY-fSWJHUQ/view?usp=sharing
 
 
        Note : 
